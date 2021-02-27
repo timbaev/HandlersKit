@@ -17,4 +17,6 @@ extension UIGestureRecognizer: HandlersKit, ObserverHolder { }
 
 extension UITextView: HandlersKit, ObserverHolder { }
 
+extension UIScrollView: HandlersKit, ObserverHolder { }
+
 #endif

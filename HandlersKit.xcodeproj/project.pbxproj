@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1CCA3125EA973100EB37EA /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CCA3025EA973100EB37EA /* UIScrollView.swift */; };
+		8E1CCA3A25EAA7F500EB37EA /* UIScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CCA3625EAA7BD00EB37EA /* UIScrollViewTests.swift */; };
 		C42700C223F1877C007F32D1 /* HandlersKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42700B923F1877C007F32D1 /* HandlersKit.framework */; };
 		C427010823F18B02007F32D1 /* HandlersKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C427009F23F18686007F32D1 /* HandlersKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4462DD323F57EDB00F7F1E4 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = C4462DD223F57EDB00F7F1E4 /* .travis.yml */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E1CCA3025EA973100EB37EA /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		8E1CCA3625EAA7BD00EB37EA /* UIScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewTests.swift; sourceTree = "<group>"; };
 		C427009F23F18686007F32D1 /* HandlersKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandlersKit.h; sourceTree = "<group>"; };
 		C42700A023F18686007F32D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42700AC23F18686007F32D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,12 +138,13 @@
 		C42700A923F18686007F32D1 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C42700AC23F18686007F32D1 /* Info.plist */,
 				C446283C23F2B43E00F7F1E4 /* LinuxMain.swift */,
 				C4F561CE23F194D20081F7D1 /* UIBarButtonItemTests.swift */,
 				C4F561CF23F194D20081F7D1 /* UIControlTests.swift */,
+				8E1CCA3625EAA7BD00EB37EA /* UIScrollViewTests.swift */,
 				C4F561CC23F194D20081F7D1 /* UITextFieldTests.swift */,
 				C4F561CD23F194D20081F7D1 /* UITextViewTests.swift */,
-				C42700AC23F18686007F32D1 /* Info.plist */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				C4F561BC23F190E10081F7D1 /* UIBarButtonItem.swift */,
 				C4F561C023F190E10081F7D1 /* UIControl.swift */,
 				C4F561BB23F190E10081F7D1 /* UIGestureRecognizer.swift */,
+				8E1CCA3025EA973100EB37EA /* UIScrollView.swift */,
 				C4F561BD23F190E10081F7D1 /* UITextField.swift */,
 				C4F561BF23F190E10081F7D1 /* UITextView.swift */,
 			);
@@ -302,6 +308,7 @@
 				C4F561CB23F190E10081F7D1 /* EventsObserverHolder.swift in Sources */,
 				C4F561CA23F190E10081F7D1 /* ObserverHolder.swift in Sources */,
 				C4F561C523F190E10081F7D1 /* UIBarButtonItem.swift in Sources */,
+				8E1CCA3125EA973100EB37EA /* UIScrollView.swift in Sources */,
 				C4F561C723F190E10081F7D1 /* HandlersKit.swift in Sources */,
 				C4F561C823F190E10081F7D1 /* UITextView.swift in Sources */,
 				C4F561C423F190E10081F7D1 /* UIGestureRecognizer.swift in Sources */,
@@ -314,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1CCA3A25EAA7F500EB37EA /* UIScrollViewTests.swift in Sources */,
 				C4F561D023F194D20081F7D1 /* UITextFieldTests.swift in Sources */,
 				C4F561D323F194D20081F7D1 /* UIControlTests.swift in Sources */,
 				C4F561D123F194D20081F7D1 /* UITextViewTests.swift in Sources */,
